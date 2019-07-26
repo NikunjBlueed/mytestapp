@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "^1.1.1",
+    "@capacitor/cli": "^1.1.1",
+    "@capacitor/core": "^1.1.1",
+    "@capacitor/ios": "^1.1.1",
     "@ionic/react": "0.0.7",
     "@types/node": "^12.6.8",
     "@types/react": "^16.8.23",
     "@types/react-redux": "^7.1.1",
     "@types/react-router": "^5.0.3",
     "@types/react-router-dom": "^4.3.4",
+    "cordova-plugin-ionic": "^5.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
@@ -38,5 +43,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-ionic": {
+        "APP_ID": "0bf9c431",
+        "CHANNEL_NAME": "Master",
+        "UPDATE_METHOD": "background",
+        "MAX_STORE": "2",
+        "MIN_BACKGROUND_DURATION": "30",
+        "UPDATE_API": "https://api.ionicjs.com"
+      }
+    }
   }
 }
