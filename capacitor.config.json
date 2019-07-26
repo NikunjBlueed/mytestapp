@@ -1,0 +1,7 @@
+{
+  "appId": "com.blueed.mytestapp",
+  "appName": "mytestapp",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build"
+}
